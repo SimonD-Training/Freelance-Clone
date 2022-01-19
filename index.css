@@ -1,0 +1,138 @@
+*{
+    border: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: underline;
+}
+.frelogo{
+    height: 32px;
+}
+.button:hover{
+    cursor: pointer;
+    background: #fff4;
+    width: 100%;
+    height: 100%;
+}
+
+#header{
+    display: flex;
+    width: 95%;
+    height: 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 105%;
+    padding-left: 1.5%;
+    padding-right: 3.5%;
+}
+#header *{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#header > section > *, #header > section > * > *{
+    padding: 0 12px;
+}
+#project{
+    background-color: #f20091;
+    width: 110px; 
+    height: 35px;
+    font-size:85%;
+    font-weight: bold;
+    color: white;
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    width: 94%;
+    height: calc(100vh - 60px);
+    background: #161e2c;
+    padding-top: 30px;
+    padding-left: 3%;
+    padding-right: 3%;
+    color: white;
+}
+#footer > section{
+    display: flex;
+    width: 100%;
+}
+#footer > section:nth-of-type(2){
+    align-items: center;
+    border-top: 1px solid grey;
+    margin-top: 60px;
+    height: 100px;
+}
+#footer > section:nth-of-type(2) > div{
+    width: 25%;
+}
+#footer > section:nth-of-type(2) > div:nth-child(3){
+    width: 50%;
+}
+#footer svg{
+    width: 25px;
+    height: 25px;
+}
+#footer > section > div{
+    display: flex;
+    flex-direction: column;
+    width: calc( calc( 1 / 6 ) * 100% );
+    padding: 0 12px;
+    font-size: 90%;
+}
+#footer > section > div > img{
+    margin-bottom: 20px;
+    margin-left: -56px;
+}
+#footer > section > div > b{
+    font-size: 110%;
+    padding-bottom: 15px;
+}
+#footer > section > div > a{
+    color: lightgray;
+    line-height: 180%;
+}
+#footer > section > div > div{
+    margin-bottom: 20px;
+}
+#footer > section > div > div:hover{
+    cursor: pointer;
+}
+#footer > section > div > nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 85%;
+}
+#footer > section > div > nav > *{
+    fill: white;
+}
+#footer > section > div > nav > *:hover{
+    cursor: pointer;
+}
+#footer > section > div > nav > *:nth-child(1):hover{
+    fill: rgb(0, 68, 255);
+}
+#footer > section > div > nav> *:nth-child(2):hover{
+    fill: rgb(60, 216, 255);
+}
+#footer > section > div > nav> *:nth-child(3):hover{
+    fill: red;
+}
+#footer > section > div > nav> *:nth-child(4):hover{
+    fill: blueviolet;
+}
+#footer > section > div > section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+#footer > section > div > section > div{
+    width: 80%;
+}
