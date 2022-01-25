@@ -8,15 +8,23 @@
     padding-left: 3%;
 }
 
-#landing>.header>div {
+#landing>.header>a {
     position: relative;
     height: 100%;
     padding: 1.25%;
 }
 
-#landing>.header>div:hover {
+#landing>.header>a:hover {
     background: #fff4;
     cursor: pointer;
+}
+
+#landing>.header>a:hover > .callout{
+    visibility: visible;
+}
+
+#landing>.header>a:hover > .callout-content{
+    visibility: visible;
 }
 
 #landing>.header .callout {
@@ -24,12 +32,13 @@
     position: absolute;
     width: 0;
     height: 0;
-    margin-top: 10px;
+    margin-top: 9px;
+    visibility: hidden;
 }
 
 #landing>.header .callout.up{
     border: 10px solid;
-    border-color: transparent transparent #fff transparent;
+    border-color: transparent transparent #f7f7f7 transparent;
 }
 
 #landing>.header .callout.down{
@@ -56,6 +65,7 @@
     color: black;
     margin-top: 10px;
     padding-left: 12px;
+    visibility: hidden;
 }
 
 #landing>.header .callout-content>section {
