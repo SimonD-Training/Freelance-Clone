@@ -1,0 +1,266 @@
+* {
+	box-sizing: border-box;
+	font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+#discovery {
+	position: relative;
+}
+/* Header Section of page */
+#discovery .main_header {
+	display: flex;
+	align-items: center;
+	background-color: #ddb7c7;
+	height: 500px;
+}
+
+#discovery .head_info {
+	display: flex;
+	flex-direction: column;
+	width: 480px;
+	margin-left: 12.5%;
+}
+
+#discovery .head_info > .one {
+	font-size: 300%;
+	font-weight: bold;
+}
+
+#discovery .head_info > .two {
+	font-size: 150%;
+	line-height: 200%;
+}
+
+#discovery .head_info > .three {
+	display: flex;
+	margin-top: 95px;
+	align-items: center;
+}
+
+#discovery .head_info > .three > .sub1 {
+	font-weight: bold;
+	line-height: 150%;
+}
+
+#discovery .head_info > .three > .sub2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: -24px;
+	margin-left: 18px;
+	background-color: #d90082;
+	border-radius: 50%;
+	width: 80px;
+	height: 80px;
+	color: #f7f7f7;
+	font-weight: bold;
+}
+
+#discovery #HeadPic {
+	height: 404px;
+	margin-left: 75px;
+}
+
+#discovery .Nav1 {
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 4px 0 #00000014, 0 2px 4px 0 #0000001f;
+	position: sticky;
+	top: 0;
+	background: #ffffff;
+	z-index: 2;
+}
+
+#discovery .Nav1 > div {
+	padding: 12px;
+}
+
+#discovery .Nav1 > div:hover {
+	border-bottom: 3px solid #0000001f;
+	cursor: pointer;
+}
+
+#discovery .Nav1 > div:nth-of-type(1) {
+	color: #007fed;
+	border-bottom: 3px solid #007fed;
+}
+
+#discovery .MidSect {
+	background-color: #161e2c;
+	padding: 0 10%;
+	width: 100%;
+}
+
+#discovery .MidSect .mid1 .whitegirl {
+	width: 100%;
+	position: relative;
+}
+
+#discovery .MidSect .mid1 .whitegirl > img {
+	width: 100%;
+}
+
+#discovery .MidSect .mid1 .whitegirl .whitetext {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	width: 45%;
+	padding: 90px 90px;
+	color: #f7f7f7;
+}
+
+#discovery .MidSect .mid1 .info1 {
+	font-size: 32px;
+	color: #f7f7f7;
+	font-weight: 550;
+	padding: 50px 0 0 0;
+	margin-bottom: 5px;
+}
+
+#discovery .MidSect .mid1 .info2 {
+	font-size: 24px;
+	font-weight: 200;
+	color: #f7f7f7;
+	margin-bottom: 30px;
+}
+
+#discovery .MidSect .mid1 .whitegirl .whitetext .info3 {
+	font-size: 150%;
+	font-weight: 550;
+	margin-bottom: 20px;
+}
+
+#discovery .MidSect .mid1 .whitegirl .whitetext .info4 {
+	font-size: 130%;
+	margin-bottom: 20px;
+	line-height: 140%;
+}
+
+#discovery .MidSect .mid1 .whitegirl .whitetext .info5 {
+	display: flex;
+	align-items: center;
+	font-size: 90%;
+}
+
+#discovery .MidSect .mid1 .whitegirl .whitetext .info5 .clock {
+	height: 20px;
+	width: 20px;
+	margin-right: 8px;
+	fill: #f7f7f7;
+}
+
+#discovery .MidSect .mid2 {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	margin-top: 25px;
+	padding-bottom: 50px;
+}
+
+#discovery .MidSect .mid2 .asiangirl {
+	width: 376px;
+}
+
+#discovery .MidSect .mid2 .Laptop {
+	width: 376px;
+}
+
+#discovery .MidSect .mid2 .Blackgirl {
+	width: 376px;
+}
+
+#discovery .MidSect .mid2 .asiangirl .bg1 {
+	background: url("./Pictures/Body/Mid Section/Asian Girl.jpg");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	width: 376px;
+	height: 282px;
+}
+
+#discovery .MidSect .mid2 .Laptop .bg2 {
+	background: url("./Pictures/Body/Mid Section/Laptop.jpg");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	width: 376px;
+	height: 282px;
+}
+
+#discovery .MidSect .mid2 .Blackgirl .bg3 {
+	background: url("./Pictures/Body/Mid Section/Black Girl.jpg");
+	background-position: center;
+	background-size: 150%;
+	background-repeat: no-repeat;
+	width: 376px;
+	height: 282px;
+}
+
+#discovery .MidSect .mid2 .asiangirl .sent1 {
+	color: #f7f7f7;
+	font-size: 128%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+#discovery .MidSect .mid2 .asiangirl .sent2 {
+	display: flex;
+	align-items: center;
+	color: #f7f7f7;
+	font-size: 90%;
+}
+
+#discovery .MidSect .mid2 .Laptop .sent3 {
+	color: #f7f7f7;
+	font-size: 128%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 45px;
+}
+
+#discovery .MidSect .mid2 .Laptop .sent4 {
+	display: flex;
+	align-items: center;
+	color: #f7f7f7;
+	font-size: 90%;
+}
+
+#discovery .MidSect .mid2 .Blackgirl .sent5 {
+	color: #f7f7f7;
+	font-size: 128%;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#discovery .MidSect .mid2 .Blackgirl .sent6 {
+	display: flex;
+	align-items: center;
+	color: #f7f7f7;
+	font-size: 90%;
+}
+
+#discovery .MidSect .mid2 .asiangirl .sent2 .clock2 {
+	height: 20px;
+	width: 20px;
+	margin-right: 8px;
+	fill: #f7f7f7;
+}
+
+#discovery .MidSect .mid2 .Laptop .sent4 .clock3 {
+	height: 20px;
+	width: 20px;
+	margin-right: 8px;
+	fill: #f7f7f7;
+}
+
+#discovery .MidSect .mid2 .Blackgirl .sent6 .clock4 {
+	height: 20px;
+	width: 20px;
+	margin-right: 8px;
+	fill: #f7f7f7;
+}
