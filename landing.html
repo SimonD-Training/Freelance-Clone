@@ -13,7 +13,211 @@
             Resources
         </div>
     </header>
-    <main id="display">
-
+    <main class="display" ng-style="displayStyle()">
+        <div>
+            <div>
+                Hire the best <br> freelancers for any job, <br> online.
+            </div>
+            <div>
+                Millions of people use freelancer.com to turn their ideas into reality.
+            </div>
+            <div>
+                <a class="button">
+                        Hire a Freelancer
+                </a>
+                <a class="button">
+                        Earn Money Freelancing
+                </a>
+            </div>
+        </div>
     </main>
+    <main class="body">
+        <section class="brands">
+            <span>
+                As used by
+            </span>
+            <div>
+                <img src="./Media/amazon_logo2.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/facebook-corporate-logo2.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/deloitte-logo2.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/nasa-logo3.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/ibm-logo2.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/airbus-logo2.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/telstra-logo.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/fujitsu-logo.svg" alt="">
+            </div>
+            <div>
+                <img src="./Media/google-logo.svg" alt="">
+            </div>
+        </section>
+        <h1>Need something done?</h1>
+        <section class="listing">
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/post-a-project.svg" alt="">
+                    </div>
+                    <b>
+                        Post a job
+                    </b>
+                </div>
+                <div>
+                    It's free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/work.svg" alt="">
+                    </div>
+                    <b>
+                        Choose freelancers
+                    </b>
+                </div>
+                <div>
+                    No job is too big or too small. We've got freelancers for jobs of any size or budget, across 1800+ skills. No job is too complex. We can get it done!
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/pay-safely.svg" alt="">
+                    </div>
+                    <b>
+                        Pay safely
+                    </b>
+                </div>
+                <div>
+                    Only pay for work when it has been completed and you're 100% satisfied with the quality using our milestone payment system.
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/about-me.svg" alt="">
+                    </div>
+                    <b>
+                        We're here to help
+                    </b>
+                </div>
+                <div>
+                    Our talented team of recruiters can help you find the best freelancer for the job and our technical co-pilots can even manage the project for you.
+                </div>
+            </div>
+        </section>
+        <h1>What's great about it?</h1>
+        <section class="listing">
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/browse-portfolios.svg" alt="">
+                    </div>
+                    <b>
+                        Browse portfolios
+                    </b>
+                </div>
+                <div>
+                    It's free and easy to post a job. Simply fill in a title, description and budget and competitive bids come within minutes.
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/bids-alt.svg" alt="">
+                    </div>
+                    <b>
+                        Fast bids
+                    </b>
+                </div>
+                <div>
+                    No job is too big or too small. We've got freelancers for jobs of any size or budget, across 1800+ skills. No job is too complex. We can get it done!
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/rank-higher.svg" alt="">
+                    </div>
+                    <b>
+                        Quality work
+                    </b>
+                </div>
+                <div>
+                    Only pay for work when it has been completed and you're 100% satisfied with the quality using our milestone payment system.
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div>
+                        <img src="./Media/track-progress.svg" alt="">
+                    </div>
+                    <b>
+                        Track progress
+                    </b>
+                </div>
+                <div>
+                    Our talented team of recruiters can help you find the best freelancer for the job and our technical co-pilots can even manage the project for you.
+                </div>
+            </div>
+        </section>
+        <h2>Make it Real with Freelancer.</h2>
+        <span>Get some inspiration from 1800+ skills</span>
+        <section class="catalogue">
+            <figure ng-repeat="item in catalogue">
+                <img ng-src={{item.url}} alt="">
+                <figcaption>
+                    {{item.title1}} <br> {{item.title2}}
+                </figcaption>
+            </figure>
+        </section>
+        <section class="listing">
+            <a href="" class="button">
+                    View More Projects
+            </a>
+        </section>
+    </main>
+    <footer class="footer">
+        <section>
+            <div>
+                Freelancer API.
+            </div>
+            <div>
+                50 million professionals on demand
+            </div>
+            <div>
+                Why hire people when you can simply integrate our talented cloud workforce instead?
+            </div>
+            <a href="" class="button">
+                View Documentation
+            </a>
+        </section>
+        <section>
+            <div>
+                Freelancer Enterprise.
+            </div>
+            <div>
+                Company budget? Get more done for less
+            </div>
+            <div>
+                Use our workforce of 50 million to help your business achieve more.
+            </div>
+            <a href="" class="button">
+                Contact Us
+            </a>
+        </section>
+    </footer>
 </section>
