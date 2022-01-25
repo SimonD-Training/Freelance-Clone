@@ -108,7 +108,7 @@
 	right: 0;
 	height: 100%;
 	width: 45%;
-	padding: 90px 90px;
+	padding: 70px;
 	color: #f7f7f7;
 }
 
@@ -161,15 +161,15 @@
 }
 
 #discovery .MidSect .mid2 .asiangirl {
-	width: 376px;
+	width: 25vw;
 }
 
 #discovery .MidSect .mid2 .Laptop {
-	width: 376px;
+	width: 25vw;
 }
 
 #discovery .MidSect .mid2 .Blackgirl {
-	width: 376px;
+	width: 25vw;
 }
 
 #discovery .MidSect .mid2 .asiangirl .bg1 {
@@ -177,8 +177,8 @@
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
-	width: 376px;
-	height: 282px;
+	width: 25vw;
+	height: calc( calc(282/376) * 25vw );
 }
 
 #discovery .MidSect .mid2 .Laptop .bg2 {
@@ -186,8 +186,8 @@
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
-	width: 376px;
-	height: 282px;
+	width: 25vw;
+	height: calc( calc(282/376) * 25vw );
 }
 
 #discovery .MidSect .mid2 .Blackgirl .bg3 {
@@ -195,8 +195,8 @@
 	background-position: center;
 	background-size: 150%;
 	background-repeat: no-repeat;
-	width: 376px;
-	height: 282px;
+	width: 25vw;
+	height: calc( calc(282/376) * 25vw );
 }
 
 #discovery .MidSect .mid2 .asiangirl .sent1 {
