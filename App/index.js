@@ -10,7 +10,7 @@ Origin.config(function ($routeProvider){
     $routeProvider.when("", {
         
     }).otherwise({
-        templateUrl: "landing.html",
+        templateUrl: "./Landing/landing.html",
         controller: "landingController"
     });
 });
@@ -21,7 +21,7 @@ Origin.controller("MommyController", function ($scope, Global){
 
 Origin.controller("landingController", function ($scope, $interval, Global){
     $scope.global = Global;
-    Global.title = "Freelancer";
+    Global.title = "Hire Freelancers & Find Freelance Jobs Online | Freelancer";
     $scope.catalogue = [ //{url: "", title1: "", title2: ""}
     {url: "./Media/logo-design-v2.jpg", title1: "Logo Design.", title2: "$30 USD in 1 day."},
     {url: "./Media/package-design-1-v2.jpg", title1: "Package Design.", title2: "$280 USD in 4 days."},

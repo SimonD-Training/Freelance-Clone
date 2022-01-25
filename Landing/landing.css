@@ -1,70 +1,154 @@
-#landing > header{
+#landing>.header {
     display: flex;
-    width: 96%;
+    width: 97%;
+    position: relative;
     background: #161e2c;
     color: #f7f7f7;
     font-size: 90%;
-    padding-left: 4%;
+    padding-left: 3%;
 }
-#landing > header > div{
+
+#landing>.header>div {
+    position: relative;
     height: 100%;
-    padding: 1.5%;
+    padding: 1.25%;
 }
-#landing > header > div:hover{
+
+#landing>.header>div:hover {
     background: #fff4;
+    cursor: pointer;
 }
-#landing .display{
+
+#landing>.header .callout {
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    margin-top: 10px;
+}
+
+#landing>.header .callout.up{
+    border: 10px solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+#landing>.header .callout.down{
+    border: 10px solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+#landing>.header .callout.right{
+    border: 10px solid;
+    border-color: transparent transparent transparent #fff;
+}
+
+#landing>.header .callout.left{
+    border: 10px solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+#landing>.header .callout-content {
+    display: block;
+    position: absolute;
+    top: 105%;
+    left: 0;
+    display: block;
+    color: black;
+    margin-top: 10px;
+    padding-left: 12px;
+}
+
+#landing>.header .callout-content>section {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    padding: 15px;
+    background: #f7f7f7;
+    font-size: 90%;
+    line-height: 200%;
+}
+
+#landing>.header .callout-content>section>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#landing>.header .callout-content>section>div:hover {
+    color: #0099ff;
+}
+
+#landing>.header .callout-content>section>div:hover>i {
+    border-color: #0099ff;
+}
+
+#landing>.header .callout-content>section>div>span {
+    margin-right: 24px;
+}
+
+#landing>.display {
     display: flex;
     width: 100%;
     height: 100vh;
     align-items: center;
 }
-#landing .display > div{
+
+#landing .display>div {
     margin-left: 50px;
     color: #f7f7f7;
     width: 500px;
 }
-#landing .display > div > *:nth-of-type(1){
+
+#landing .display>div>*:nth-of-type(1) {
     font-size: 280%;
     font-weight: bold;
     margin-bottom: 24px;
 }
-#landing .display > div > *:nth-of-type(2){
+
+#landing .display>div>*:nth-of-type(2) {
     font-size: 125%;
     margin-bottom: 24px;
 }
-#landing .display > div > *:nth-of-type(3){
+
+#landing .display>div>*:nth-of-type(3) {
     display: flex;
 }
-#landing .display > div > *:nth-of-type(3) > a{
+
+#landing .display>div>*:nth-of-type(3)>a {
     font-size: 125%;
     font-weight: bold;
     margin-right: 12px;
     padding: 15px 18px;
     transition: background 0.25s linear;
 }
-#landing .display > div > *:nth-of-type(3) > .button:nth-of-type(1){
+
+#landing .display>div>*:nth-of-type(3)>.button:nth-of-type(1) {
     background: #f20091;
 }
-#landing .display > div > *:nth-of-type(3) > .button:nth-of-type(2){
+
+#landing .display>div>*:nth-of-type(3)>.button:nth-of-type(2) {
     border: 1px solid #f7f7f7;
     background: linear-gradient(#0000, #fff4);
 }
-#landing .display > div > *:nth-of-type(3) > .button:nth-of-type(1):hover{
+
+#landing .display>div>*:nth-of-type(3)>.button:nth-of-type(1):hover {
     background: hsl(324, 100%, 60%);
     cursor: pointer;
 }
-#landing .display > div > *:nth-of-type(3) > .button:nth-of-type(2):hover{
+
+#landing .display>div>*:nth-of-type(3)>.button:nth-of-type(2):hover {
     background: #fff4;
     cursor: pointer;
 }
-#landing .body{
+
+#landing .body {
     display: flex;
     flex-direction: column;
     width: 94%;
     padding: 0 3%;
 }
-#landing .body .brands{
+
+#landing .body .brands {
     display: flex;
     width: 100%;
     height: 90px;
@@ -72,95 +156,112 @@
     justify-content: space-between;
     border-bottom: 1px solid lightgray;
 }
-#landing .body .brands *{
+
+#landing .body .brands * {
     height: 35px;
 }
-#landing .body .brands > span{
+
+#landing .body .brands>span {
     font-size: 120%;
     color: #161e2cc9;
     margin: 10px;
 }
-#landing .body > h1{
+
+#landing .body>h1 {
     font-size: 270%;
     color: #161e2c;
     line-height: 600%;
 }
-#landing .body > h2{
+
+#landing .body>h2 {
     font-size: 270%;
     color: #161e2c;
     margin-top: 100px;
 }
-#landing .body > span{
+
+#landing .body>span {
     font-size: 130%;
     line-height: 400%;
 }
-#landing .listing{
+
+#landing .listing {
     display: flex;
     justify-content: center;
     padding-bottom: 90px;
     border-bottom: 1px solid lightgray;
 }
-#landing .listing > div{
+
+#landing .listing>div {
     display: flex;
     flex-direction: column;
-    width: calc( calc(1/4) * 100% );
+    width: calc(calc(1/4) * 100%);
     padding: 0 3px;
 }
-#landing .listing > div > div:nth-of-type(1){
+
+#landing .listing>div>div:nth-of-type(1) {
     display: flex;
     align-items: center;
     font-size: 150%;
     padding-left: 12px;
     padding-bottom: 12px;
 }
-#landing .listing > div > div:nth-of-type(2){
+
+#landing .listing>div>div:nth-of-type(2) {
     padding: 0 12px;
     font-size: 115%;
 }
-#landing .listing > div img{
+
+#landing .listing>div img {
     height: 70px;
 }
-#landing .catalogue{
+
+#landing .catalogue {
     display: flex;
     flex-wrap: wrap;
 }
-#landing .catalogue > figure{
+
+#landing .catalogue>figure {
     display: flex;
     flex-direction: column;
-    width: calc( calc(1/4) * 100% - 12px );
+    width: calc(calc(1/4) * 100% - 12px);
     height: 300px;
     margin: 6px;
     padding-top: 20px;
 }
-#landing .catalogue > figure > figcaption{
+
+#landing .catalogue>figure>figcaption {
     display: flex;
     flex-grow: 1;
     align-items: center;
     font-size: 160%;
     font-weight: bolder;
 }
-#landing .listing > .button{
+
+#landing .listing>.button {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f20091;
-    font-size:120%;
+    font-size: 120%;
     font-weight: bold;
     color: #f7f7f7;
     margin-top: 48px;
     padding: 15px 18px;
     transition: background 0.25s linear;
 }
-#landing .listing > .button:hover{
+
+#landing .listing>.button:hover {
     background: hsl(324, 100%, 60%);
     cursor: pointer;
 }
-#landing .footer{
+
+#landing .footer {
     display: flex;
     width: 100%;
     height: 529px;
 }
-#landing .footer > section{
+
+#landing .footer>section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -171,41 +272,48 @@
     padding-right: 15%;
     color: #f7f7f7;
 }
-#landing .footer > section > div:nth-of-type(1){
+
+#landing .footer>section>div:nth-of-type(1) {
     font-size: 120%;
     font-weight: bold;
 }
-#landing .footer > section > div:nth-of-type(2){
+
+#landing .footer>section>div:nth-of-type(2) {
     font-size: 200%;
     font-weight: bold;
     line-height: 130%;
     margin-bottom: 24px;
 }
-#landing .footer > section > div:nth-of-type(3){
+
+#landing .footer>section>div:nth-of-type(3) {
     margin-bottom: 24px;
 }
-#landing .footer > section > .button{
+
+#landing .footer>section>.button {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: #f20091;
-    font-size:80%;
+    font-size: 80%;
     font-weight: bold;
     color: #f7f7f7;
     padding: 10px 13px;
     transition: background 0.25s linear;
 }
-#landing .footer > section > .button:hover{
+
+#landing .footer>section>.button:hover {
     background: hsl(324, 100%, 60%);
     cursor: pointer;
 }
-#landing .footer > section:nth-of-type(1){
+
+#landing .footer>section:nth-of-type(1) {
     background: url("./Media/api-upsell-v3.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
-#landing .footer > section:nth-of-type(2){
+
+#landing .footer>section:nth-of-type(2) {
     background: url("./Media/enterprise-upsell-v3.jpg");
     background-size: cover;
     background-position: center;

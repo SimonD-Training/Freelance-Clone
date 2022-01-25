@@ -6,4 +6,4 @@ Designated Info Page to Rackeel Brooks
 Designated Discovery Page to Romario Donald
 
 Two analyses of the architecture were done, one deduced that the website will consist of an SPA with two external pages being Sign Up and Log In. The other deduced the main pages that should be focused on first.
-The plan is to analyse the page source, collect media for reuse and attempt to reverse engineer visual features either indirectly or directly where possible.
+The plan is to analyse the page source, collect media for reuse and attempt to reverse engineer visual features with each team member's most comofrtable approach.

@@ -1,46 +1,69 @@
-*{
+* {
     border: 0;
     margin: 0;
-    font-family: Roboto,Helvetica Neue,Helvetica,Arial,sans-serif;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
     color: inherit;
 }
-.frelogo{
+
+.arrow {
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    width:0;
+    height: 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.frelogo {
     height: 32px;
 }
-#header{
+
+#header {
     display: flex;
     width: 95%;
     height: 60px;
     align-items: center;
     justify-content: space-between;
-    font-size: 105%;
+    font-size: 100%;
     padding-left: 1.5%;
     padding-right: 3.5%;
+    color: #161e2c;
 }
-#header *{
+
+#header * {
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-#header > section > *, #header > section > * > *{
-    padding: 0 12px;
+
+#header>section>*, #header>section:nth-of-type(2)>*>* {
+    padding: 0 15px;
 }
-#header .button{
+
+#header .button {
     background-color: #f20091;
-    font-size:85%;
+    font-size: 85%;
     font-weight: bold;
     color: white;
-    padding: 12px;
+    padding: 8px 10px;
     transition: background 0.25s linear;
 }
-#header .button:hover{
+
+#header .button:hover {
     background: hsl(324, 100%, 60%);
     cursor: pointer;
 }
-#footer{
+
+#footer {
     display: flex;
     flex-direction: column;
     width: 94%;
@@ -51,84 +74,105 @@ a{
     padding-right: 3%;
     color: white;
 }
-#footer a:hover{
+
+#footer a:hover {
     text-decoration: underline;
 }
-#footer > section{
+
+#footer>section {
     display: flex;
     width: 100%;
 }
-#footer > section:nth-of-type(2){
+
+#footer>section:nth-of-type(2) {
     align-items: center;
     border-top: 1px solid grey;
     margin-top: 60px;
     height: 100px;
 }
-#footer > section:nth-of-type(2) > div{
+
+#footer>section:nth-of-type(2)>div {
     width: 25%;
 }
-#footer > section:nth-of-type(2) > div:nth-child(3){
+
+#footer>section:nth-of-type(2)>div:nth-child(3) {
     width: 50%;
 }
-#footer svg{
+
+#footer svg {
     width: 25px;
     height: 25px;
 }
-#footer > section > div{
+
+#footer>section>div {
     display: flex;
     flex-direction: column;
-    width: calc( calc( 1 / 6 ) * 100% );
+    width: calc(calc(1 / 6) * 100%);
     padding: 0 12px;
     font-size: 90%;
 }
-#footer > section > div > img{
+
+#footer>section>div>img {
     margin-bottom: 20px;
     margin-left: -56px;
 }
-#footer > section > div > b{
+
+#footer>section>div>b {
     font-size: 110%;
     padding-bottom: 15px;
 }
-#footer > section > div > a{
+
+#footer>section>div>a {
     color: lightgray;
     line-height: 180%;
 }
-#footer > section > div > div{
+
+#footer>section>div>div {
     margin-bottom: 20px;
 }
-#footer > section > div > div:hover{
+
+#footer>section>div>div:hover {
     cursor: pointer;
 }
-#footer > section > div > nav{
+
+#footer>section>div>nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 85%;
 }
-#footer > section > div > nav > *{
+
+#footer>section>div>nav>* {
     fill: white;
 }
-#footer > section > div > nav > *:hover{
+
+#footer>section>div>nav>*:hover {
     cursor: pointer;
 }
-#footer > section > div > nav > *:nth-child(1):hover{
+
+#footer>section>div>nav>*:nth-child(1):hover {
     fill: rgb(0, 68, 255);
 }
-#footer > section > div > nav> *:nth-child(2):hover{
+
+#footer>section>div>nav>*:nth-child(2):hover {
     fill: rgb(60, 216, 255);
 }
-#footer > section > div > nav> *:nth-child(3):hover{
+
+#footer>section>div>nav>*:nth-child(3):hover {
     fill: red;
 }
-#footer > section > div > nav> *:nth-child(4):hover{
+
+#footer>section>div>nav>*:nth-child(4):hover {
     fill: blueviolet;
 }
-#footer > section > div > section{
+
+#footer>section>div>section {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 8px 0;
 }
-#footer > section > div > section > div{
+
+#footer>section>div>section>div {
     width: 80%;
 }
