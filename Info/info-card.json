@@ -1,0 +1,44 @@
+{
+    "cards":[
+        {"svg":"Media/info-media/svg/post-a-project.svg",
+        "heading":"Any sized projects",
+        "description":"Get any job done. From small one-off tasks to large, multi-stage projects."
+        },
+        
+        {"svg":"Media/info-media/svg/make-money.svg",
+            "heading":"Flexible payment terms",
+            "description":"Pay your freelancers a fixed price or by the hour. All secured by the Milestone Payments system."
+        },
+
+         {"svg":"Media/info-media/svg/skills.svg",
+             "heading":"Diverse talents",
+            "description":"Choose from expert freelancers in over 1800 skill sets, from all around the globe."
+         }
+
+    ],
+
+    "cards2":[
+        {"svg":"Media/info-media/svg/post-a-project.svg",
+            "heading":"Any sized projects",
+            "description":"Get any job done. From small one-off tasks to large, multi-stage projects."
+            },
+            
+            {"svg":"Media/info-media/svg/make-money.svg",
+                "heading":"Flexible payment terms",
+                "description":"Pay your freelancers a fixed price or by the hour. All secured by the Milestone Payments system."
+            }
+    ],
+
+    "cards3":[
+        {"svg":"Media/info-media/svg/post-a-project.svg",
+            "heading":"Any sized projects",
+            "description":"Get any job done. From small one-off tasks to large, multi-stage projects."
+            },
+            
+            {"svg":"Media/info-media/svg/make-money.svg",
+                "heading":"Flexible payment terms",
+                "description":"Pay your freelancers a fixed price or by the hour. All secured by the Milestone Payments system."
+            }
+    ]
+
+}

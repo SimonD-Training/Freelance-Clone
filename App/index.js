@@ -9,6 +9,10 @@ Origin.factory("Global", () => {
 
 Origin.config(function ($routeProvider) {
     $routeProvider
+        .when("/info", {
+            templateUrl: "./Info/info.html",
+            controller: "infoController"
+        })
         .when("/jobs", {
             templateUrl: "./Jobs/jobs.template.html",
             controller: "jobsController",
@@ -308,4 +312,17 @@ Origin.controller("jobs-detailController", function ($scope, $http, Global) {
 Origin.controller("articlesController", function ($scope, $http, Global) {
     $scope.global = Global;
     Global.title = "How to hire a freelance accountant for your business | Freelancer";
+});
+
+
+Origin.controller("infoController", function ($scope, $http, Global){
+    $scope.global = Global;
+    Global.title = "Freelancer - How it works | Freelancer";
+    $http.get('../info-card.json')
+    .then(function(response){
+        $scope.cards = response.data.cards;
+        console.log(response);
+        $scope.cards2 = response.data.cards2;
+        $scope.cards3 = response.data.cards3;
+    })
 });
