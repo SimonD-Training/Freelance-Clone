@@ -59,7 +59,7 @@
 #landing>.header .callout-content {
     display: block;
     position: absolute;
-    top: 105%;
+    top: 100%;
     left: 0;
     display: block;
     color: black;

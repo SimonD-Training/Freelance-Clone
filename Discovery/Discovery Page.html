@@ -1,130 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<link rel="stylesheet" href="Discovery Style.css" />
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
-		<title>Discover the Best of Freelancer | Freelancer</title>
-	</head>
-	<body ng-app>
-		<section id="discovery">
-			<!-- This Section contains Header Information and Navigation Bar -->
-			<header>
-				<div class="main_header">
-					<div class="head_info">
-						<div class="one">
-							Make it real <br />
-							with Freelancer
-						</div>
-						<div class="two">
-							Find inspiration for your next big idea
-						</div>
-						<div class="three">
-							<div class="sub1">
-								This illustration cost <br />
-								and took 3 days
-							</div>
-							<div class="sub2">$200 USD</div>
-						</div>
+<body>
+	<section id="discovery">
+		<!-- This Section contains Header Information and Navigation Bar -->
+		<header>
+			<div class="main_header">
+				<div class="head_info">
+					<div class="one">
+						Make it real <br />
+						with Freelancer
 					</div>
-					<img
-						id="HeadPic"
-						src="../Discovery/Pictures/Header/Header Pic.jpg"
-						alt="Header Pic"
-					/>
+					<div class="two">
+						Find inspiration for your next big idea
+					</div>
+					<div class="three">
+						<div class="sub1">
+							This illustration cost <br />
+							and took 3 days
+						</div>
+						<div class="sub2">$200 USD</div>
+					</div>
 				</div>
-			</header>
-			<nav class="Nav1">
-				<div
-					title="{{item}}"
-					ng-repeat="item in ['All','Website Design','Mobile','Graphic Design','Logo Design','3D Modeling','Illustration','Branding','Product Design','Package Design','Wordpress']"
-				>
-					{{item}}
+				<img id="HeadPic" src="../Discovery/Pictures/Header/Header Pic.jpg" alt="Header Pic" />
+			</div>
+		</header>
+		<nav class="Nav1">
+			<div title="{{item}}"
+				ng-repeat="item in ['All','Website Design','Mobile','Graphic Design','Logo Design','3D Modeling','Illustration','Branding','Product Design','Package Design','Wordpress']">
+				{{item}}
+			</div>
+		</nav>
+		<!-- Part of Main Section containing articles about business -->
+		<main class="MidSect">
+			<div class="mid1">
+				<p class="info1">Related articles</p>
+				<p class="info2">
+					Learn everything about building your business
+				</p>
+
+				<div class="whitegirl">
+					<img src="../Discovery/Pictures/Body/Mid Section/starting-your-business-headlin.jpg"
+						alt="mid image1" />
+
+					<div class="whitetext">
+						<p class="info3">
+							How to come up with a great business idea
+						</p>
+
+						<p class="info4">
+							Struggling to come up with the best idea? Our
+							exhaustive guide runs through the idea
+							generation process to help you tap into your
+							inner Steve Jobs.
+						</p>
+
+						<p class="info5">
+							<svg class="clock" viewbox="2 2 22 22">
+								<path
+									d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
+									fill-rule="nonzero"></path>
+							</svg>
+							10 MIN READ
+						</p>
+					</div>
 				</div>
-			</nav>
-			<!-- Part of Main Section containing articles about business -->
-			<main class="MidSect">
-				<div class="mid1">
-					<p class="info1">Related articles</p>
-					<p class="info2">
-						Learn everything about building your business
+			</div>
+			<div class="mid2">
+				<div class="asiangirl">
+					<div class="bg1"></div>
+					<p class="sent1">Funding your startup</p>
+					<p class="sent2">
+						<svg class="clock2" viewbox="2 2 22 22">
+							<path
+								d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
+								fill-rule="nonzero"></path>
+						</svg>
+						26 MIN READ
 					</p>
-
-					<div class="whitegirl">
-						<img
-							src="../Discovery/Pictures/Body/Mid Section/starting-your-business-headlin.jpg"
-							alt="mid image1"
-						/>
-
-						<div class="whitetext">
-							<p class="info3">
-								How to come up with a great business idea
-							</p>
-
-							<p class="info4">
-								Struggling to come up with the best idea? Our
-								exhaustive guide runs through the idea
-								generation process to help you tap into your
-								inner Steve Jobs.
-							</p>
-
-							<p class="info5">
-								<svg class="clock" viewbox="2 2 22 22">
-									<path
-										d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
-										fill-rule="nonzero"
-									></path>
-								</svg>
-								10 MIN READ
-							</p>
-						</div>
-					</div>
 				</div>
-				<div class="mid2">
-					<div class="asiangirl">
-						<div class="bg1"></div>
-						<p class="sent1">Funding your startup</p>
-						<p class="sent2">
-							<svg class="clock2" viewbox="2 2 22 22">
-								<path
-									d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
-									fill-rule="nonzero"
-								></path>
-							</svg>
-							26 MIN READ
-						</p>
-					</div>
 
-					<div class="Laptop">
-						<div class="bg2"></div>
-						<p class="sent3">How to market your startup</p>
-						<p class="sent4">
-							<svg class="clock3" viewbox="2 2 22 22">
-								<path
-									d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
-									fill-rule="nonzero"
-								></path>
-							</svg>
-							31 MIN READ
-						</p>
-					</div>
-
-					<div class="Blackgirl">
-						<div class="bg3"></div>
-						<p class="sent5">
-							Corporate branding: What it is and why you need it
-						</p>
-						<p class="sent6">
-							<svg class="clock4" viewbox="2 2 22 22">
-								<path
-									d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
-									fill-rule="nonzero"
-								></path>
-							</svg>
-							7 MIN READ
-						</p>
-					</div>
+				<div class="Laptop">
+					<div class="bg2"></div>
+					<p class="sent3">How to market your startup</p>
+					<p class="sent4">
+						<svg class="clock3" viewbox="2 2 22 22">
+							<path
+								d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
+								fill-rule="nonzero"></path>
+						</svg>
+						31 MIN READ
+					</p>
 				</div>
-			</main>
-		</section>
-	</body>
-</html>
+
+				<div class="Blackgirl">
+					<div class="bg3"></div>
+					<p class="sent5">
+						Corporate branding: What it is and why you need it
+					</p>
+					<p class="sent6">
+						<svg class="clock4" viewbox="2 2 22 22">
+							<path
+								d="M11.99,2 C17.52,2 22,6.48 22,12 C22,17.52 17.52,22 11.99,22 C6.47,22 2,17.52 2,12 C2,6.48 6.47,2 11.99,2 Z M12,4 C7.58,4 4,7.58 4,12 C4,16.42 7.58,20 12,20 C16.42,20 20,16.42 20,12 C20,7.58 16.42,4 12,4 Z M12.5,7 L12.5,12.25 L17,14.92 L16.25,16.15 L11,13 L11,7 L12.5,7 Z"
+								fill-rule="nonzero"></path>
+						</svg>
+						7 MIN READ
+					</p>
+				</div>
+			</div>
+		</main>
+	</section>
+</body>

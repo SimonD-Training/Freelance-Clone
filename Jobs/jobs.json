@@ -1,0 +1,292 @@
+[
+    {
+        "id" : 1,
+        "employer": [
+            {
+                "reviews": 4,
+                "address": "San Diego, United States ",
+                "ratings": 1.0,
+                "payment": true,
+                "email": true,
+                "profile": true,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title": "Build us a Mobile web Crypto wallet App",
+        "daysLeft": 6,
+        "description": "We are a company of Cryptocurrency enterprises so we need a Crypto wallet app developer for Mobile and Web Version to help us develop our crypto wallet app but starting with the ui design with payment or award cause we are going to judge you with the ui design delivered then we fund you for the ui design and the next milestone with desired Method. So If you know you are Okay with delivering the ui design before payment or award kindly share me your TELEGRAM ID casue we have alots of developers working for us over there so we have to be active always. \n Note if you are not cool with our terms don't bid thanks",
+        "moreInfo": "",
+        "skills": ["Android", "iPhone", "Mobile App Development", "Web Application"],
+        "bids": 0,
+        "verified": true,
+        "budget": "12500-37500 INR",
+        "rates": 750
+
+    },
+    {
+        "id" : 2,
+        "employer": [
+            {
+                "reviews": 1,
+                "address": "brooklyn, United States ",
+                "ratings": 0.5,
+                "payment": true,
+                "email": true,
+                "profile": false,
+                "phone": false,
+                "deposit": false
+            }
+        ],
+        "title": "Drag and drop puzzle game",
+        "daysLeft": 6,
+        "description": "I am looking for someone to develop a drag and drop game to complete the picture. Game should be simple browser-based built using HTML, JS and PHP.",
+        "moreInfo": "Flow of game: 1. Welcome screen displaying how to play the game 2. Game screen to play the game 3. Game must be finished in 30 seconds of time 4. There should be a hint section that shows which components are placed where. For every hint taken, 3seconds of time should get deducted. 5. After completing the game, a form should display on the screen where user has to feed his email and name 6. After that congratulation message will be displayed 7. User is able to see leaderboard as well",
+        "skills":["PHP", "Javascript", "HTML5", "HTML", "JQuery / Prototype"],
+        "bids": 2,
+        "verified": false,
+        "budget": "$3500 USD",
+        "rates": 34
+    },
+    {
+        "id": 3,
+        "employer": [
+            {
+                "reviews": 4,
+                "address": "Newtown, United States",
+                "ratings": 4.5,
+                "payment": true,
+                "email": true,
+                "profile": true,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title":"React Native developer for an ongoing project",
+        "daysLeft":6,
+        "description": "We currently have a mobile application for emergencies. It has simple but vital functions. It is already completed and will go live soon. However, we will be adding new features and will need support when there is an issue. It is developed on React Native. Here are our requirements",
+        "moreInfo": "1. Expert knowledge in React Native 2. Good English for communication 3. Teams over individuals are preferred 4. I will give the full details to ONLY selected freelancers after initial communication 5. Do NOT try to contact me on Skype, I ignore the requests if you are not on my list already 6. Requires 10+ positive relative experience with project budgets over $1000 7. Do NOT send me unrelated portfolio links, send me only related links 8. Here is the priority country list; Turkey, Ukraine, Bulgaria, Romania, Estonia (Sorry, no India) Go ahead and bid please, good luck.",
+        "skills":["React Native", "Mobile App Development"],
+        "bids": 14,
+        "verified": true,
+        "budget": "$3000",
+        "rates": 20
+
+    },
+    {
+        "id":4,
+        "employer": [
+            {
+                "reviews": 12,
+                "address": "Okanogan, United States",
+                "ratings": 5.0,
+                "payment": true,
+                "email": true,
+                "profile": true,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title": "Ecommerce company name ideas",
+        "daysLeft":6,
+        "description": "Planning to launch a e-commerce business on amazon and Flipkart selling various products I need a neutral business (company name) so that I can sell in different categories",
+        "moreInfo": "build a complete e commerce website for selling smartphone skins, need a freelance content writer for an e-commerce company, we are a start-up ecommerce company dealing with dental materials trading we are yet to launch our website in india, we are a startup ecommerce company dealing with dental materials trading we are yet to launch our website in india, e commerce assistant data entry for online clothing company immediate start, amazon e commerce freelancer, amazon international e commerce websites, best e commerce site and mobile app development company in hyd, company profile for e commerce writers website freelancers india bangalore, e commerce company, e commerce company in fujerah free zone, http www ydeveloper com blog ecommerce how e commerce web develeoer_can help you step by step, ideas for starting e commerce website, jobs in e commerce company dubai, want to develop a business advertisement app e commerce website and delivery system but not a paise in my hand i wish i could fi, strategy formulation and implementation planning in e-commerce, ideas to improve e commerce, planning the e commerce project",
+        "skills":["Branding", "Brand Management", "Brand Marketing"],
+        "bids": 0,
+        "verified": true,
+        "budget": "$12500-37500 USD",
+        "rates": 168
+    },
+    {
+        "id": 5,
+        "employer": [
+            {
+                "reviews": 2,
+                "address": "Toronto, Canada",
+                "ratings": 0.0,
+                "payment": false,
+                "email": true,
+                "profile": false,
+                "phone": true,
+                "deposit": false
+            }
+        ],
+        "title": "Flutter Resource Required for a Module Development",
+        "daysLeft": 9,
+        "description": "Urgent Requirement of a flutter developer for a Module development in an existing application. Designs and API are ready...only flutter development is required. Thanks!",
+        "moreInfo": "",
+        "skills": ["Flutter", "Android", "iOS Development"],
+        "bids": 3,
+        "verified": false,
+        "budget": "1250-3750 INR",
+        "rates": 7 
+    },
+    {
+        "id": 6,
+        "employer": [
+            {
+                "reviews": 3,
+                "address": "India",
+                "ratings": 2.5,
+                "payment": true,
+                "email": true,
+                "profile": false,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title": "Looking for mobile/backend developer",
+        "daysLeft": 7,
+        "description": "Developer needed for stealth mode startup",
+        "moreInfo": "See more: web developer designer needed, flash backend web developer, mobile sip client developer, looking term affiliate software developer, looking freelance winforms wpf developer, wordpress plugin developer freelance needed, looking mobile developer, web copy stealth mode startup, looking mobile app developer, freelancer in egypt mobile backend developer, i am looking for mobile pool game developer in toronto, looking for a female developer mobile boston, mobile application developer freelance needed, stealth mode startup, stealth mode startup company founder, stealth mode startup linkedin, stealth mode startup san francisco, stealth mode startup company website, stealth mode startup india, stealth mode startup bangalore",
+        "skills": ["Flutter", "Mobile App Development", "React Native", "Ruby on Rails"],
+        "bids": 3,
+        "verified": false,
+        "budget": "$1500 USD",
+        "rates": 10
+    },
+    {
+        "id": 7,
+        "employer": [
+            {
+                "reviews": 0,
+                "address": "Heraklion, Greece",
+                "ratings": 0.0,
+                "payment": false,
+                "email": true,
+                "profile": false,
+                "phone": true,
+                "deposit": false
+            }
+        ],
+        "title": "JSON file translations",
+        "daysLeft": 8,
+        "description": "We are looking for a translation company to translate below file in various languages. Please provide us a fixed price for translating file in a language.",
+        "moreInfo": "sunlight translation company ukraine, looking spanish company 2008, looking projects company, translation company usa, translation company usa price, looking web can translate, translation company dubai media city, looking translation french, looking outsourcing company partners 2008, looking forward hear translate french, translate various languages, company looking translation, hello we are looking for company name, we are looking for a junior videographer to join our dynamic team at speciality drinks we are a company at the forefront of the, we looking for computer programmers to hire in my company, wherever we go looking forward guys translate to tagalog, google translate json file online, translate json file online",
+        "skills": ["JSON", "Translation"],
+        "bids": 16,
+        "verified": false,
+        "budget": "$4000 USD",
+        "rates": 18
+    },
+    {
+        "id": 8,
+        "employer": [
+            {
+                "reviews": 3,
+                "address": " Cairo, Egypt ",
+                "ratings": 1.0,
+                "payment": false,
+                "email": true,
+                "profile": false,
+                "phone": true,
+                "deposit": false
+            }
+        ],
+        "title": "Russian course reviewer",
+        "daysLeft": 6,
+        "description": "We have a series of eLearning courses in Russian. Someone native Russian speaker who can take a look at the course especially the audio sync and let me know if there is any issues.",
+        "moreInfo": "elearning courses voice overs, elearning courses using mascot, websites elearning courses, selling elearning courses, voice elearning courses, psychology elearning courses, we are looking for someone to assist us with ccna terms and concepts this will need to be via screen recording and screen sharin, we are looking for someone to design a double sided a5 flyer with an infographic displaying our services and mission statement, we are looking for someone to design a double sided a5 flyer with an infographic displaying our services and mission statement u, we are looking for someone to modernise and revamp our logo, we are looking for someone who can develop, We are looking for someone, we are looking for someone who can write a blog for us, why should we hire you over someone else,  We are looking for someone , elearning courses, We are looking for someone to give our website a brand new 2017 look and feel and bring it out of the stone age., We are looking for someone to give our website, We are looking for someone to give our , We are looking for someone to give our website a brand new 2017 look and feel and bring it out of the stone age",
+        "skills": ["Russian", "Reviewer", "Testing / QA"],
+        "bids": 3,
+        "verified": false,
+        "budget": "$2800 USD",
+        "rates": 16
+    },
+    {
+        "id": 9,
+        "employer": [
+            {
+                "reviews": 4.5,
+                "address": " Singapore, Singapore",
+                "ratings": 4.5,
+                "payment": true,
+                "email": true,
+                "profile": false,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title": "Agreement writing",
+        "daysLeft": 6,
+        "description": "I need someone who can draft a genuine looking Agreement document.",
+        "moreInfo": "i have multiple document that just need to be retyped into word as i need to make changes to them they need to be edited, i need a agent for writing, i need a custom writing, i need a document writing, i need a legal document writing up, i need a legal draft for retainership with my clients for my advertising and studio services, i need a logo developed for our company i am looking for fixed one time fee not hourly rate, i need a promoter writing, i need a screenplay writer to help me with writing a script, i need an editor for a book i am in the process of writing, i need hel in writing book, i need help in writing a think piece, i need help in writing an executive summary, i need help in writing my project, i need help on writing an essay, i need help with my writing my essay, i need help writing a biography, i need help writing a subscription agreement, i need a professional looking email address, what sort of agreement do i need with bloggers",
+        "skills": ["Legal", "Legal Writting", "Legal Research", "Research Writting", "Employment Law"],
+        "bids": 22,
+        "verified": true,
+        "budget": "$3000 USD",
+        "rates": 32
+    },
+    {
+        "id": 10,
+        "employer": [
+            {
+                "reviews": 16,
+                "address": "Gold Coast, Australia",
+                "ratings": 5.0,
+                "payment": true,
+                "email": true,
+                "profile": true,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title": "Fashion designer profile",
+        "daysLeft": 6,
+        "description": "web site for as a profile for our work fashion designer boutiqe",
+        "moreInfo": "female adult models available web site work, freelance designer adult web site, sharepoint designer custom web site, freelance web site work delivery specification, profissional web designer hyip web site, web site work test mode, web designer set web site, fashion designer profile, write fashion designer profile, freelauncer fashion designer profile, marriage designer sarees web site, costume designer london web site, find a designer for web site, freelance fashion designer profile, graphic designer freelance web site, fashion designer profile summary, fashion designer profile sample, fashion designer profile template, how to write a fashion designer profile, fashion designer profile write up",
+        "skills": ["Website Design", "Fashion Design", "PHP", "HTML", "Logo Design"],
+        "bids": 13,
+        "verified": true,
+        "budget": "$6000 USD",
+        "rates": 45
+    },
+    {
+        "id": 11,
+        "employer": [
+            {
+                "reviews": 3.2,
+                "address": "Belauli bhojipur, India",
+                "ratings": 1.5,
+                "payment": true,
+                "email": true,
+                "profile": false,
+                "phone": false,
+                "deposit": true
+            }
+        ],
+        "title": "Needed an Financial content writer",
+        "daysLeft": 6,
+        "description": "Needed an Financial content writer who have perfect idea about how stock market , mutual fund and cryptocurrency works.",
+        "moreInfo": "",
+        "skills": ["Article Writting", "Ghost Writting", "Content Creation", "Finance", "Research Writting"],
+        "bids": 9,
+        "verified": false,
+        "budget": "2500 - 4000 USD",
+        "rates": 205
+    },
+    {
+        "id": 12,
+        "employer": [
+            {
+                "reviews": 8,
+                "address": " Panskura, India",
+                "ratings": 4.5,
+                "payment": true,
+                "email": true,
+                "profile": false,
+                "phone": true,
+                "deposit": true
+            }
+        ],
+        "title": "I need expert to help on computer networking",
+        "daysLeft": 6,
+        "description": "I need expert to help on computer networking",
+        "moreInfo": " i need css help, i need layout help design outsourcing, i need marketing help, i need orifessionsl help writing a poem, i need photoshop help, i need russian help on a translation, i need some help, i need twitter help from a professional, i need urgent help to complete a one-page website (pretty simple) it has a prototype currently 20% completed, i need urgent help to complete a onepage website pretty simple it has a prototype currently 20 completed, am an hip hop artist in nigeria i need a help or a record lebel, https translate google com gh m hl en&sl en&tl fr&ie utf 8&prev m&q hello friend please i need your help, i need a help how to write a letter to your friend in abroad tell her about the recent development in your country, i need a help how to writing a letter for application form, i need seo help, i need a help as a artist, i need a help for my business, i need excel help, i need excel help in agra, i need expert advice in excel",
+        "skills": ["Simulation"],
+        "bids": 1,
+        "verified": true,
+        "budget": "12500-37500 INR",
+        "rates": 140
+    }
+]
