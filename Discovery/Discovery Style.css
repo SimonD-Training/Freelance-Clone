@@ -178,7 +178,7 @@
 	background-size: 150%;
 	background-repeat: no-repeat;
 	width: 25vw;
-	height: calc( calc(282/376) * 25vw );
+	height: calc(calc(282 / 376) * 25vw);
 }
 
 #discovery .MidSect .mid2 .Laptop .bg2 {
@@ -187,7 +187,7 @@
 	background-size: 150%;
 	background-repeat: no-repeat;
 	width: 25vw;
-	height: calc( calc(282/376) * 25vw );
+	height: calc(calc(282 / 376) * 25vw);
 }
 
 #discovery .MidSect .mid2 .Blackgirl .bg3 {
@@ -196,7 +196,7 @@
 	background-size: 150%;
 	background-repeat: no-repeat;
 	width: 25vw;
-	height: calc( calc(282/376) * 25vw );
+	height: calc(calc(282 / 376) * 25vw);
 }
 
 #discovery .MidSect .mid2 .asiangirl .sent1 {
@@ -263,4 +263,17 @@
 	width: 20px;
 	margin-right: 8px;
 	fill: #f7f7f7;
+}
+
+/* Contains Last Section Styling */
+
+#discovery .LastSect .SuperTexts {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10%;
+}
+
+#discovery .LastSect .SuperTexts .MoreText {
+	display: flex;
+	align-items: flex-end;
 }
