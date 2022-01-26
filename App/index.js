@@ -318,7 +318,7 @@ Origin.controller("articlesController", function ($scope, $http, Global) {
 Origin.controller("infoController", function ($scope, $http, Global){
     $scope.global = Global;
     Global.title = "Freelancer - How it works | Freelancer";
-    $http.get('../info-card.json')
+    $http.get('../Info/info-card.json')
     .then(function(response){
         $scope.cards = response.data.cards;
         console.log(response);
