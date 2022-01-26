@@ -1,0 +1,337 @@
+#jobs * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#jobs .p0-20 {
+  padding: 0 20px;
+}
+
+#jobs .container {
+  background: #f0f0f0;
+  padding: 12px 20px;
+}
+
+#jobs .jobs-title a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background: transparent;
+}
+
+#jobs .jobs-title button {
+  border: 1px solid white;
+  background: transparent;
+  margin: auto 5px;
+}
+
+#jobs .jobs-title button:nth-child(1) {
+  background: #f20091;
+  border: 1px solid #f20091;
+}
+
+#jobs .jobs-title {
+  background: #007fed;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  color: white;
+}
+
+#jobs .jobs-title h1 {
+  font-size: 2rem;
+  line-height: 1.37;
+}
+
+#jobs .card {
+  background-color: #fff;
+  color: #333;
+  box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.2);
+  padding: 5px;
+}
+
+#jobs .search input,
+select {
+  padding: 16px 10px 16px;
+  width: 42%;
+  display: inline;
+  font-size: 1.1rem;
+  border: none;
+}
+
+#jobs .search input {
+  border-right: 1px solid #f7f7f7;
+}
+
+#jobs .search input,
+select:focus {
+  outline: none;
+}
+
+#jobs .search i {
+  padding-left: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+#jobs .search button {
+  font-size: 1.2rem;
+  padding: 16px 25px;
+  border: none;
+  background: #007fed;
+  color: white;
+  margin-left: 10px;
+}
+
+#jobs .jobs-content {
+  display: flex;
+  gap: 1.2rem;
+}
+
+#jobs .filters {
+  width: 24%;
+  padding: 20px;
+  height: fit-content;
+}
+
+#jobs .infos {
+  width: 74%;
+}
+
+#jobs .recent-search {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 0 20px 0;
+  margin: 0 0 20px 0;
+}
+
+#jobs #filters select,
+input[type="text"] {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  /* display: inline; */
+  font-size: 1.1rem;
+  padding: 10px;
+  width: 100%;
+}
+
+#jobs #filters input[type="checkbox"] {
+  /* border: 1px solid #29b2fe; */
+  padding: 20px;
+  display: inline-block;
+  margin: 2px 5px 0;
+  background: red;
+  /* outline: none; */
+}
+
+#jobs .flex {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+
+#jobs #filters .type {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+#jobs #filters .type div {
+  padding: 3px 0;
+}
+
+#jobs .job-post {
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 78% 20%;
+  gap: 1rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#jobs .job-post p {
+  padding: 15px 0;
+}
+
+#jobs .card.infos {
+  padding: 0;
+}
+
+#jobs .job-post button {
+  padding: 8px 12px;
+  border: none;
+  background: #4fb55d;
+  color: white;
+  display: none;
+}
+
+#jobs .job-post:hover {
+  background: #f7f7f7;
+}
+
+#jobs .job-post:hover button {
+  display: block;
+}
+
+/* ///////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////// */
+#moreInfo .jobTitle {
+  background: #0069c7;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  font-size: 1.1rem;
+}
+
+#moreInfo .jobTitle .budget {
+  display: flex;
+  align-items: center;
+}
+
+#moreInfo .jobTitle .budget :nth-child(1) {
+  margin: 0 10px;
+}
+
+#moreInfo .details {
+  display: grid;
+  grid-template-columns: 65% 33%;
+  gap: 1.5rem;
+}
+
+#moreInfo .post-a-project a {
+  display: block;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #4d525b;
+  border: 1px solid #ccc;
+  background: #f7f7f7;
+}
+
+#moreInfo .post-a-project a:hover {
+  background: transparent;
+}
+
+#moreInfo .other-jobs,
+#moreInfo .other-jobs ul,
+#moreInfo .jobs-alike,
+#moreInfo .jobs-alike ul {
+  padding: 20px;
+}
+
+#moreInfo .other-jobs li,
+#moreInfo .jobs-alike li {
+  padding: 10px 0;
+}
+
+#moreInfo .other-jobs h3,
+#moreInfo .jobs-alike h3 {
+  font-size: 1.2rem;
+  padding: 0 0 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+#moreInfo .moreInfo {
+  padding: 35px 25px 25px;
+}
+
+#moreInfo .moreInfo p {
+  padding: 10px 0;
+}
+
+#moreInfo .employer {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 50px;
+}
+
+#moreInfo .employer i {
+  margin: 0 5px;
+}
+
+#moreInfo .offer {
+  padding: 30px 0 0;
+}
+
+#moreInfo .offer .lead {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 1rem;
+  align-items: center;
+}
+
+#moreInfo .offer .lead span {
+  color: #379e54;
+  background: #ddf5d3;
+  padding: 5px 1rem;
+  border-radius: 12px;
+}
+
+#moreInfo .offer form {
+  display: grid;
+  grid-template-columns: auto auto 35%;
+  gap: 10px;
+  padding: 1.5rem 0;
+}
+
+#moreInfo .offer form a {
+  display: block;
+}
+
+#moreInfo .offer form .bidBtn a {
+  text-decoration: none;
+  color: white;
+  background: #fa4153;
+  text-align: center;
+  margin: 15px 0 0;
+  padding: 10px 0;
+}
+
+#moreInfo .offer form button {
+  padding: 0 10px;
+  color: #7f7f7f;
+  border: 1px solid #ccc;
+}
+
+#moreInfo .offer ul {
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 0 20px;
+}
+
+#moreInfo .offer ul li {
+  padding: 1rem;
+}
+
+/* ////////////////////////// */
+/* //////////////////////////// */
+.stars-outer {
+  position: relative;
+  display: inline-block;
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0%;
+}
+
+.stars-outer::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  color: #ccc;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005";
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 900;
+  color: #f8ce0b;
+}

@@ -10,12 +10,14 @@
     <link rel="stylesheet" href="./index.css">
     <link rel="stylesheet" href="./Landing/landing.css">
     <link rel="stylesheet" href="./Discovery/Discovery Style.css">
+    <link rel="stylesheet" href="./Jobs/jobs.style.css">
+    <link rel="stylesheet" href="./Jobs/starRating.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.min.js"></script>
     <script src="./App/index.js"></script>
 </head>
 
-<body title="Hire Freelancers & Find Freelance Jobs Online">
+<body title="Hire Freelancers & Find Freelance Jobs Online" id="index">
     <header id="header">
         <section>
             <a href="/">
@@ -25,16 +27,16 @@
                 <a href="">How It Works</a>
             </div>
             <div>
-                <a href="">Browse Jobs</a>
+                <a href="#!jobs">Browse Jobs</a>
             </div>
         </section>
         <section>
             <nav>
                 <div ng-show="true">
-                    <a href="">Log In</a>
+                    <a href="./loginForm.html">Log In</a>
                 </div>
                 <div ng-show="true">
-                    <a href="">Sign Up</a>
+                    <a href="./signUpForm.html">Sign Up</a>
                 </div>
                 <div ng-show="true">
                     <a href="" class="button">
@@ -203,7 +205,7 @@
                     <b>XX,XXX</b>
                 </span>
                 <span>
-                    Total Job Posted
+                    Total Jobs Posted
                 </span>
             </div>
             <div>

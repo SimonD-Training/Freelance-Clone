@@ -2,12 +2,19 @@ var Origin = angular.module("Origin", ["ngRoute"]);
 
 Origin.factory('Global', () => {
     return {
-        title: ""
+        title: "",
+        jobs_details: []
     };
 });
 
 Origin.config(function ($routeProvider) {
-    $routeProvider.when("/discovery", {
+    $routeProvider.when("/jobs", {
+        templateUrl: "./Jobs/jobs.template.html",
+        controller: "jobsController"
+    }).when("/job-detail", {
+        templateUrl: "./Jobs/jobs-detail.template.html",
+        controller: "jobs-detailController"
+    }).when("/discovery", {
         templateUrl: "./Discovery/Discovery Page.html",
         controller: "discoveryController"
     }).otherwise({
@@ -60,4 +67,70 @@ Origin.controller("landingController", function ($scope, $interval, Global) {
 Origin.controller("discoveryController", function ($scope, Global) {
     $scope.global = Global;
     Global.title = "Discover the Best of Freelancer | Freelancer";
+    $scope.catalogue = [ //{url: "", title1: "", title2: ""}
+
+    ];
+});
+
+Origin.controller('jobsController', function ($scope, $http, Global) {
+    $scope.global = Global;
+    Global.title = "Freelance Jobs and Contests | Freelancer";
+
+    // //////JOB POSTS ////////
+    $http.get("./Jobs/jobs.json")
+        .then((response) => {
+            $scope.jobPosts = response.data;
+        });
+
+    // ///////SEARCH LOG SERVICE///////////
+    $scope.searchLog = [];
+
+    $scope.recentSearch = (search) => {
+        if ($scope.searchLog.length === 0) {
+            $scope.searchLog.unshift(search);
+            console.log($scope.searchLog);
+        } else {
+            let dupelicate = false;
+            for (let i = 0; i < $scope.searchLog.length; i++) {
+                if (search == $scope.searchLog[i]) {
+                    dupelicate = true;
+                    let index = $scope.searchLog.indexOf($scope.searchLog[i]);
+                    if (index > -1) {
+                        $scope.searchLog.splice(index, 1);
+                        $scope.searchLog.unshift(search);
+                    }
+                }
+            };
+            if (!dupelicate) {
+                $scope.searchLog.unshift(search);
+            };
+        }
+    };
+
+    // /////////DETAIL SERVICE///////////////
+    $scope.presentDetails = (post) => {
+        console.log('presentDetails' + Global.jobs_details);
+
+        if (Global.jobs_details.length === 0) {
+            Global.jobs_details.unshift(post);
+        } else {
+            let repeat = false;
+            for (let i = 0; i < Global.jobs_details.length; i++) {
+                if (Global.jobs_details[i].id === post.id) {
+                    repeat = true;
+                }
+            }
+            if (!repeat) {
+                Global.jobs_details.unshift(post);
+            }
+        }
+        console.log(Global.jobs_details);
+    };
+}
+);
+
+Origin.controller('jobs-detailController', function ($scope, $http, Global) {
+    $scope.global = Global;
+    Global.title = Global.jobs_details[0].title;
+    Global.title += Global.jobs_details[0].skills.join("|");
 });
