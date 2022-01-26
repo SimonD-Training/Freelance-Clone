@@ -34,6 +34,22 @@
 				{{item}}
 			</div>
 		</nav>
+		<!-- Hovering Catalogue -->
+		<section>
+			<section class="catalogue">
+				<h2 style="font-size: 180%">Handpicked ideas for you</h2>
+				<span style="font-size: 120%; line-height: 150%"
+					>Featured work from our best freelancers</span
+				>
+				<figure ng-repeat="item in catalogue">
+					<img ng-src="{{item.url}}" alt="" />
+					<figcaption>
+						<span>{{item.title1}}</span>
+						<span>{{item.title2}}</span>
+					</figcaption>
+				</figure>
+			</section>
+		</section>
 		<!-- Part of Main Section containing articles about business -->
 		<main class="MidSect">
 			<div class="mid1">
@@ -117,7 +133,7 @@
 				</div>
 			</div>
 		</main>
-
+		<!-- Describes Last Section which contains job listings and reviews -->
 		<section class="LastSect">
 			<div class="SuperTexts">
 				<div class="MainTexts">
@@ -126,7 +142,7 @@
 					</div>
 					<div class="Projects">Latest projects</div>
 				</div>
-				<div class="MoreText">See more →</div>
+				<div class="MoreText"><a href="#!jobs"> See more →</a></div>
 			</div>
 		</section>
 	</section>

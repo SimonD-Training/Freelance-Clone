@@ -87,6 +87,65 @@
 	border-bottom: 3px solid #007fed;
 }
 
+#discovery .catalogue {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2% 10%;
+	background: #f7f7f7;
+}
+
+#discovery .catalogue > h2,
+#discovery .catalogue > span {
+	width: calc(100% - 24px);
+	padding: 0 12px;
+}
+
+#discovery .catalogue > figure {
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	width: calc(calc(1 / 4) * 100% - 24px);
+	height: 230px;
+	margin: 10px 12px;
+	margin-top: 20px;
+	overflow: hidden;
+}
+
+#discovery .catalogue > figure > img {
+	transition: all 0.25s linear;
+}
+
+#discovery .catalogue > figure > img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+
+#discovery .catalogue > figure > figcaption {
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+	justify-content: space-between;
+	height: 48px;
+	width: 100%;
+	padding: 6px;
+	background: #fff;
+	bottom: -48px;
+	transition: bottom 0.25s linear;
+}
+
+#discovery .catalogue > figure:hover > figcaption {
+	bottom: 0;
+}
+
+#discovery .catalogue > figure > figcaption > span:nth-of-type(1) {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+#discovery .catalogue > figure > figcaption > span:nth-of-type(2) {
+	font-size: 70%;
+}
+
 #discovery .MidSect {
 	background-color: #161e2c;
 	padding: 0 10%;
@@ -270,10 +329,27 @@
 #discovery .LastSect .SuperTexts {
 	display: flex;
 	justify-content: space-between;
-	padding: 0 10%;
+	padding: 4% 10%;
+}
+
+#discovery .LastSect .SuperTexts .MainTexts .MainTitle {
+	font-size: 128%;
+	font-weight: 500;
+}
+
+#discovery .LastSect .SuperTexts .MainTexts .Projects {
+	font-size: 150%;
+	font-weight: 300;
+	line-height: 1.5;
 }
 
 #discovery .LastSect .SuperTexts .MoreText {
 	display: flex;
 	align-items: flex-end;
+	color: #007fee;
+}
+
+#discovery .LastSect .SuperTexts .MoreText:hover {
+	color: #319dfc;
+	text-decoration: underline;
 }
