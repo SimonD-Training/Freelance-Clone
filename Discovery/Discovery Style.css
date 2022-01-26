@@ -105,7 +105,6 @@
 	flex-direction: column;
 	position: relative;
 	width: calc(calc(1 / 4) * 100% - 24px);
-	height: 230px;
 	margin: 10px 12px;
 	margin-top: 20px;
 	overflow: hidden;
@@ -138,12 +137,12 @@
 }
 
 #discovery .catalogue > figure > figcaption > span:nth-of-type(1) {
-	font-size: 90%;
+	font-size: 80%;
 	font-weight: bold;
 }
 
 #discovery .catalogue > figure > figcaption > span:nth-of-type(2) {
-	font-size: 70%;
+	font-size: 65%;
 }
 
 #discovery .MidSect {
