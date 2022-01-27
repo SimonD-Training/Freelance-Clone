@@ -18,26 +18,26 @@
     ],
 
     "cards2":[
-        {"svg":"Media/info-media/svg/post-a-project.svg",
-            "heading":"Any sized projects",
-            "description":"Get any job done. From small one-off tasks to large, multi-stage projects."
+        {"svg":"Media/info-media/svg/live-chat.svg",
+            "heading":"Live Chat",
+            "description":"You can live chat with your freelancers to ask questions, share feedback and get constant updates on the progress of your work."
             },
             
-            {"svg":"Media/info-media/svg/make-money.svg",
-                "heading":"Flexible payment terms",
-                "description":"Pay your freelancers a fixed price or by the hour. All secured by the Milestone Payments system."
+            {"svg":"Media/info-media/svg/mobile-verify.svg",
+                "heading":"Mobile App",
+                "description":"Manage your project at the touch of your fingertips. The mobile app makes on-the-go collaboration a breeze."
             }
     ],
 
     "cards3":[
-        {"svg":"Media/info-media/svg/post-a-project.svg",
-            "heading":"Any sized projects",
-            "description":"Get any job done. From small one-off tasks to large, multi-stage projects."
+        {"svg":"Media/info-media/svg/pay-safely.svg",
+            "heading":"Pay with Confidence",
+            "description":"Pay safely and securely in over 39 currencies through the Milestone Payments system. Only release payments when you are satisfied with the work."
             },
             
-            {"svg":"Media/info-media/svg/make-money.svg",
-                "heading":"Flexible payment terms",
-                "description":"Pay your freelancers a fixed price or by the hour. All secured by the Milestone Payments system."
+            {"svg":"Media/info-media/svg/support.svg",
+                "heading":"24/7 support",
+                "description":"We're always here to help. Our representatives are available 24/7 to assist you with any issues."
             }
     ]
 
