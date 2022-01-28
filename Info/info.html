@@ -3,28 +3,30 @@
     <div class="inner-banner-container">
       <div class="banner-txt-container">
         <p class="banner-title">How can freelancers help your business.</p>
-        <h2 class="banner-txt">The possibilities are endless. We have expert freelancers who work in every technical, professional, and creative field imaginable.</h2>
-        
-          <a class="project-btn" href="#" >Post a Project</a>
+        <h2 class="banner-txt">The possibilities are endless. We have expert freelancers who work in every technical,
+          professional, and creative field imaginable.</h2>
+
+        <a class="project-btn" href="#">Post a Project</a>
 
       </div>
     </div>
-  <div class="lower-flexbox">
-    <p class="underbox sel--1"> How to hire a freelancer</p>
-    <p class="underbox sel--2">  How to earn money freelancing</p>
-  </div>
+    <div class="lower-flexbox">
+      <p class="underbox sel--1"> How to hire a freelancer</p>
+      <p class="underbox sel--2"> How to earn money freelancing</p>
+    </div>
   </section>
   <section class="sec-1">
     <div class="sec-container">
-    <h1 class="heading-1">Choose from endless possibilities.</h1>
-    <h2 class="sub-heading-1">Get anything done, exactly how you want it. Turn that spark of an idea into reality.</h2>
-    <div class="flexbox-container">
-      <div ng-repeat="card in cards track by $index">
-        <img class="card-svg" src="{{card.svg}}" alt="{{card[index].alt}}">
-        <h3>{{card.heading}}</h3>
-        <p class="description">{{card.description}}</p>
+      <h1 class="heading-1">Choose from endless possibilities.</h1>
+      <h2 class="sub-heading-1">Get anything done, exactly how you want it. Turn that spark of an idea into reality.
+      </h2>
+      <div class="flexbox-container">
+        <div ng-repeat="card in cards track by $index">
+          <img class="card-svg" src="{{card.svg}}" alt="{{card[index].alt}}">
+          <h3>{{card.heading}}</h3>
+          <p class="description">{{card.description}}</p>
+        </div>
       </div>
-    </div>
     </div>
   </section>
   <hr class="divider">
@@ -38,19 +40,22 @@
         <div class="info-sub-sec">
           <h3>1. Post a project or contest</h3>
 
-          <p>Simply post a project or contest for what you need done and receive competitive bids from freelancers within minutes.</p>
+          <p>Simply post a project or contest for what you need done and receive competitive bids from freelancers
+            within minutes.</p>
 
           <h3>2. Choose the perfect freelancer</h3>
 
-          <p>Browse freelancer profiles. Chat in real-time. Compare proposals and select the best one. Award your project and your freelancer starts work.</p>
+          <p>Browse freelancer profiles. Chat in real-time. Compare proposals and select the best one. Award your
+            project and your freelancer starts work.</p>
 
           <h3>3. Pay when you`re satisfied</h3>
 
           <p>
-            Pay securely using our Milestone Payment system. Release payments when it has been completed and you're 100% satisfied.
+            Pay securely using our Milestone Payment system. Release payments when it has been completed and you're 100%
+            satisfied.
           </p>
 
-            <a class="project-btn add--margin-top" href="#" >Post a Project</a>
+          <a class="project-btn add--margin-top" href="#">Post a Project</a>
         </div>
       </div>
     </div>
@@ -64,7 +69,8 @@
       <div class="info-sec">
         <h1>Be in Control. Keep in contact.</h1>
 
-        <p>Use our collaboration tools to work effciently with your freelancer. Share files, chat in real-time, monitor progress, and so much more.
+        <p>Use our collaboration tools to work effciently with your freelancer. Share files, chat in real-time, monitor
+          progress, and so much more.
         </p>
         <div class="flexbox-container">
           <div ng-repeat="card in cards2 track by $index">
@@ -89,7 +95,8 @@
 
       <div class="info-sec">
         <h1>Safe and secure</h1>
-        <p class="adjust--length">Freelancer.com is a community that values your trust and safety as our number one priority. Our representatives are available 24/7 to assist you with any issues.
+        <p class="adjust--length">Freelancer.com is a community that values your trust and safety as our number one
+          priority. Our representatives are available 24/7 to assist you with any issues.
         </p>
         <div class="flexbox-container">
           <div ng-repeat="card in cards3 track by $index">
@@ -102,13 +109,38 @@
     </div>
   </section>
 
-  <aside class ="sec-5">
+  <aside class="sec-5">
     <div class="little-banner">
-      <h2 class="little-banner-title adjust--length" >So what are you waiting for ?</h2>
+      <h2 class="little-banner-title adjust--length">So what are you waiting for ?</h2>
       <div class="little-banner-txt">Post a project today and get bids from talented freelancers.</div>
-      <a class="project-btn add--margin-top" href="#" >Post a Project</a>
+      <a class="project-btn add--margin-top" href="#">Post a Project</a>
     </div>
   </aside>
 
+  <section class="sec-6">
+    <h2>Still not convinced? Check out the results.</h2>
+    <span>Here are just some of the things you could get done on Freelancer.com. For more completed projects, visit our
+      Project Showcase.</span>
+    <section class="catalogue">
+      <figure ng-repeat="item in catalogue">
+        <div class="img" ng-style="figureStyle(item.url)">
+          <div class="focus">
+            <a href="#!discovery" class="button">
+              Discover More
+            </a>
+          </div>
+        </div>
+        <figcaption>
+          {{item.title1}} <br> {{item.title2}}
+        </figcaption>
+      </figure>
+    </section>
+  </section>
+
+  <section class="sec-7">
+    <a href="#!discovery" class="button">
+      View More Projects
+    </a>
+  </section>
 
 </main>

@@ -62,32 +62,32 @@ Origin.controller("landingController", function ($scope, $interval, Global) {
         {
             url: "./Media/wordpress-1.jpg",
             title1: "Wordpess.",
-            title2: "$45 USD in 1 day.",
+            title2: "$45 USD in 1 days.",
         },
         {
             url: "./Media/logo-design-2.jpg",
             title1: "Logo Design.",
-            title2: "$30 USD in 1 day.",
+            title2: "$30 USD in 1 days.",
         },
         {
             url: "./Media/website-1.jpg",
             title1: "Website.",
-            title2: "$150 USD in 1 day.",
+            title2: "$150 USD in 1 days.",
         },
         {
             url: "./Media/website-design-1.jpg",
             title1: "Website Design.",
-            title2: "$140 USD in 13 day.",
+            title2: "$140 USD in 13 days.",
         },
         {
             url: "./Media/illustration-v2.jpg",
             title1: "Illustration.",
-            title2: "$10 USD in 3 day.",
+            title2: "$10 USD in 3 days.",
         },
         {
             url: "./Media/wordpress-2.jpg",
             title1: "Wordpess.",
-            title2: "$150 USD in 18 day.",
+            title2: "$150 USD in 18 days.",
         },
         {
             url: "./Media/package-design-4.jpg",
@@ -97,32 +97,32 @@ Origin.controller("landingController", function ($scope, $interval, Global) {
         {
             url: "./Media/mobile-design-2-v2.jpg",
             title1: "Mobile Design.",
-            title2: "$100 USD in 1 day.",
+            title2: "$100 USD in 1 days.",
         },
         {
             url: "./Media/package-design-3.jpg",
             title1: "Package Design.",
-            title2: "$155 USD in 2 day.",
+            title2: "$155 USD in 2 days.",
         },
         {
             url: "./Media/website-2.jpg",
             title1: "Website.",
-            title2: "$200 USD in 9 day.",
+            title2: "$200 USD in 9 days.",
         },
         {
             url: "./Media/3d-modeling.jpg",
             title1: "3D Modeling.",
-            title2: "$110 USD in 28 day.",
+            title2: "$110 USD in 28 days.",
         },
         {
             url: "./Media/logo-design-3.jpg",
             title1: "Logo Design.",
-            title2: "$20 USD in 3 day.",
+            title2: "$20 USD in 3 days.",
         },
         {
             url: "./Media/graphic-design-2.jpg",
             title1: "Graphic Design.",
-            title2: "$60 USD in 10 day.",
+            title2: "$60 USD in 10 days.",
         },
     ];
     $scope.display = [
@@ -156,6 +156,18 @@ Origin.controller("landingController", function ($scope, $interval, Global) {
             "background-position": "center",
             "background-repeat": "no-repeat",
             transition: "background 1s linear",
+        };
+    };
+    $scope.figureStyle = (url) => {
+        return {
+            background: "url(" + url + ")",
+            "background-size": "cover",
+            "background-position": "center",
+            "background-repeat": "no-repeat",
+            transition: "all 0.25s linear",
+            display: "flex",
+            width: "20vw",
+            height: "17vw",
         };
     };
 });
@@ -315,14 +327,61 @@ Origin.controller("articlesController", function ($scope, $http, Global) {
 });
 
 
-Origin.controller("infoController", function ($scope, $http, Global){
+Origin.controller("infoController", function ($scope, $http, Global) {
     $scope.global = Global;
     Global.title = "Freelancer - How it works | Freelancer";
+
+    $scope.catalogue = [//{url: "", title1: "", title2: ""}
+        {
+            url: "./Media/logo-design-v2.jpg",
+            title1: "Logo Design.",
+            title2: "$30 USD in 1 day.",
+        },
+        {
+            url: "./Media/package-design-1-v2.jpg",
+            title1: "Package Design.",
+            title2: "$280 USD in 4 days.",
+        },
+        {
+            url: "./Media/mobile-design-1-v2.jpg",
+            title1: "Mobile Design.",
+            title2: "$600 USD in 4 days.",
+        },
+        {
+            url: "./Media/wordpress-1.jpg",
+            title1: "Wordpess.",
+            title2: "$45 USD in 1 days.",
+        },
+        {
+            url: "./Media/logo-design-2.jpg",
+            title1: "Logo Design.",
+            title2: "$30 USD in 1 days.",
+        },
+        {
+            url: "./Media/website-1.jpg",
+            title1: "Website.",
+            title2: "$150 USD in 1 days.",
+        },
+    ];
+
     $http.get('../Info/info-card.json')
-    .then(function(response){
-        $scope.cards = response.data.cards;
-        console.log(response);
-        $scope.cards2 = response.data.cards2;
-        $scope.cards3 = response.data.cards3;
-    })
+        .then(function (response) {
+            $scope.cards = response.data.cards;
+            console.log(response);
+            $scope.cards2 = response.data.cards2;
+            $scope.cards3 = response.data.cards3;
+        });
+
+    $scope.figureStyle = (url) => {
+        return {
+            background: "url(" + url + ")",
+            "background-size": "cover",
+            "background-position": "center",
+            "background-repeat": "no-repeat",
+            transition: "all 0.25s linear",
+            display: "flex",
+            width: "25vw",
+            height: "20vw",
+        };
+    };
 });

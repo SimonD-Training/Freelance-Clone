@@ -65,7 +65,7 @@
                 <a class="button">
                     Hire a Freelancer
                 </a>
-                <a class="button">
+                <a href="../signUpForm.html" class="button">
                     Earn Money Freelancing
                 </a>
             </div>
@@ -226,14 +226,20 @@
         <span>Get some inspiration from 1800+ skills</span>
         <section class="catalogue">
             <figure ng-repeat="item in catalogue">
-                <img ng-src={{item.url}} alt="">
+                <div class="img" ng-style="figureStyle(item.url)">
+                    <div class="focus">
+                      <a href="#!discovery" class="button">
+                        Discover More
+                      </a>
+                    </div>
+                  </div>
                 <figcaption>
                     {{item.title1}} <br> {{item.title2}}
                 </figcaption>
             </figure>
         </section>
         <section class="listing">
-            <a href="" class="button">
+            <a href="#!discovery" class="button">
                 View More Projects
             </a>
         </section>

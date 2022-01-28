@@ -298,3 +298,101 @@
     margin: 30px 0px;
     vertical-align: baseline;
 }
+
+#info .sec-6{
+    padding: 0 2.5%;
+    font-size: 150%;
+}
+
+#info .sec-6>h2{
+    margin: 24px 0;
+}
+
+#info .sec-6>span{
+    font-size: 80%;
+}
+
+#info .catalogue {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#info .img:hover{
+    transform: scale(1.1);
+}
+
+#info .catalogue>figure {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: calc(calc(1/3) * 100% - 24px);
+    height: fit-content;
+    margin: 12px;
+    padding-top: 20px;
+}
+
+#info .catalogue .focus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
+}
+
+#info .catalogue .focus>.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0000;
+    font-size: 80%;
+    font-weight: bold;
+    color: #f7f7f7;
+    border: 2px solid #f7f7f7;
+    padding: 15px 18px;
+    transition: background 0.25s linear;
+}
+
+#info .catalogue .focus>.button:hover{
+    background: #f7f7f744;
+    cursor: pointer;
+}
+
+#info .catalogue>figure:hover .focus{
+    visibility: visible;
+    background: #0004;
+}
+
+#info .catalogue>figure>figcaption {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    font-size: 100%;
+    font-weight: bolder;
+    margin: 24px 0;
+}
+
+#info .sec-7 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 90px;
+    border-bottom: 1px solid lightgray;
+}
+
+#info .sec-7>.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f20091;
+    font-size: 120%;
+    font-weight: bold;
+    color: #f7f7f7;
+    margin-top: 48px;
+    padding: 15px 18px;
+    transition: background 0.25s linear;
+}
+
+#info .sec-7>.button:hover {
+    background: hsl(324, 100%, 60%);
+    cursor: pointer;
+}
